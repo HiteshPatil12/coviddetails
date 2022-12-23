@@ -22,9 +22,9 @@ const CovidCaseDetails = () =>{
                         totalDeaths: response.data.Countries[i].TotalDeaths,
                     })
                 }
-                else {
-                    alert('Invalid')
-                }
+                // else {
+                //     alert('Invalid')
+                // }
             }
         }
     }
